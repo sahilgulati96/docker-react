@@ -18,6 +18,4 @@ deploy:
     on:
         branch: master
     access_key_id: $acc
-    secret_access_key:
-        secure: "$cli"
-
+    secret_access_key: $cli
